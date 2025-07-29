@@ -11,6 +11,7 @@ game.Players.PlayerAdded:Connect(function(player)
       game.Chat:RegisterChatCommand("kick", function(speaker, message)
         if speaker.Name == "pll0c" and message == "all" then
           kickAll()
+          print('heheheheh')
         end
       end)
     end
